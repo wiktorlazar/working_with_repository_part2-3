@@ -14,8 +14,16 @@ Podczas zajęć potrzebne będzie użycie takich znaczników jak
 ### Squash
 Squash jest sposobem na przepisanie historii commitów; ta akcja pomaga oczyścić i uprościć historię commitów przed podzieleniem się swoją pracą z członkami zespołu. Squash commitów oznacza, że bierzesz zmiany z jednego commitu i dodajesz je do commitu macierzystego.
    
-Aby dokonac squasha w terminalu, należy użyć interkatywnej funkcji rebase za pomocą komendy `git rebase -i`. Komenda powoduje otwarcie listy z historią commitów w edytorze VIM. Aby rozpocząć edycje tekstu za kursorem należy naciśnąć przycisk `i` na klawiaturze. Wówczas należy wybrać z listy commitów te które, powinny zostać zesquashowane. Aby tego dokanać, należy przy odpowiednich commitach zamienić słowo `pick` na `squash` bądź `s`. By wyjść z trybu edycji należy wciśnąć przycisk `esc` na klawiaturze. Aby zapisać zmiany należy dokonać poniższej komnbinacji znaków na klawiaturze: `:x`. Następnym oknem po zapisie, jest okno wyboru wiadomości commitów. Za pomocą wcześniej podanych kombinacji klawiszy, należy usunąć wiadomości dla ze squashowanych commitów oraz zedytować pierwszy commit message. 
-   
+Aby dokonac squasha w terminalu, należy użyć interkatywnej funkcji rebase za pomocą komendy `git rebase -i`. Komenda powoduje otwarcie listy z historią commitów w edytorze VIM. Aby rozpocząć edycje tekstu za kursorem należy naciśnąć przycisk `i` na klawiaturze. Wówczas należy wybrać z listy commitów te które, powinny zostać zesquashowane. 
+![Squash1](screenshots/squash1.png)
+Aby tego dokanać, należy przy odpowiednich commitach zamienić słowo `pick` na `squash` bądź `s`.
+![Squash2](screenshots/squash2.png)
+By wyjść z trybu edycji należy wciśnąć przycisk `esc` na klawiaturze. Aby zapisać zmiany należy dokonać poniższej komnbinacji znaków na klawiaturze: `:x`.
+![Squash3](screenshots/squash3.png)
+Następnym oknem po zapisie, jest okno wyboru wiadomości commitów.
+![Squash4](screenshots/squash4.png)
+Za pomocą wcześniej podanych kombinacji klawiszy, należy usunąć wiadomości dla ze squashowanych commitów oraz zedytować pierwszy commit message. 
+![Squash5](screenshots/squash5.png)   
 ### Cherry-pick
 Cherry-pick to zaawansowane polecenie, które umożliwia wybranie dowolnego commita Git przez referencję i dołączenie go do bieżącego roboczego wskaźnika HEAD. Operacja „cherry pick” polega na wybraniu commita z gałęzi i dołączeniu go do innej gałęzi. Polecenie git cherry-pick może być przydatnym narzędziem do cofania zmian. Załóżmy na przykład, że commit zostanie przypadkowo wprowadzony w niewłaściwej gałęzi. Możesz przełączyć się do właściwej gałęzi i za pomocą operacji „cherry pick” wstawić commit tam, gdzie powinien się znaleźć. - By Atlassian.
 
