@@ -52,7 +52,7 @@ Operacje prosto można również wykonać za pomocą graficznych interejsów uż
 12. Z głównego brancha stwórz nowego brancha o nazwie `feature/<twoj_numer_indeksu>/cherrypick`
 13. Wróć do głównego brancha i wpliku AboutMe.md dodaj jeden znak specjalny do pierwszej linijki i wypushuj zmiany
 14. Wróć do brancha `feature/<twoj_numer_indeksu>/gui`
-15. Otwórz repozytorium w jednym z narzędzi, który umożliwia steowanie gitem za pomocą graficznego interfejsu użytkownika (Jetbrains/Sourcetree)
+15. Otwórz repozytorium w jednym z narzędzi, który umożliwia steowanie gitem za pomocą graficznego interfejsu użytkownika (Jetbrains IDEs / Sourcetree / Fork / VS Code itd..)
 16. Zrób zmiany w pliku `AboutMe.md`, dodaj zdanie "lorem ipsum" w pierwszej linijce
 17. Zacommituj i wypushuj zmiany za pomocą graficznego interfejsu użytkownika
 18. Za pomocą GUI zrób rebase, rozwiąż konflikty oraz wypushuj rozwiązane konflikty na remote
