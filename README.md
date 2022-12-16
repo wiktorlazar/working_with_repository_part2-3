@@ -27,7 +27,9 @@ Za pomocą wcześniej podanych kombinacji klawiszy, należy usunąć wiadomości
 ### Cherry-pick
 Cherry-pick to zaawansowane polecenie, które umożliwia wybranie dowolnego commita Git przez referencję i dołączenie go do bieżącego roboczego wskaźnika HEAD. Operacja „cherry pick” polega na wybraniu commita z gałęzi i dołączeniu go do innej gałęzi. Polecenie git cherry-pick może być przydatnym narzędziem do cofania zmian. Załóżmy na przykład, że commit zostanie przypadkowo wprowadzony w niewłaściwej gałęzi. Możesz przełączyć się do właściwej gałęzi i za pomocą operacji „cherry pick” wstawić commit tam, gdzie powinien się znaleźć. - By Atlassian.
 
-Operacje prosto można również wykonać za pomocą graficznych interejsów użytkownika dla Gita takich jak SourceTree, czy wbudowane narzędzia w IDE. W najpopularniejszych rozwiązaniach często wystarczy w historii commitów wybrać interesujący nas commit za pomocą prawego przyciska myszy oraz kliknąć polecenie `cherry-pick`
+Operacje prosto można również wykonać za pomocą graficznych interejsów użytkownika dla Gita takich jak SourceTree, czy wbudowane narzędzia w IDE. W najpopularniejszych rozwiązaniach często wystarczy w historii commitów wybrać interesujący nas commit za pomocą prawego przyciska myszy oraz kliknąć polecenie `cherry-pick`.
+
+![CherryPick1](screenshots/cherrypick1.png)   
       
 ## Zadania   
 1. Wykonaj forka bieżącego repozytorium do swojego konta na Githubie
