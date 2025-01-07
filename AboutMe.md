@@ -9,3 +9,7 @@ Cześć, jestem Wiktor! Studiuję informatykę. Lubię programowanie oraz siłow
 - Wspinaczka
 - Muzyka
 - Podróże
+
+## Obrazek z kotem
+
+![Kot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAriSZualZowEwOxC66Hv18EN44lQ0yQUqA&s)
